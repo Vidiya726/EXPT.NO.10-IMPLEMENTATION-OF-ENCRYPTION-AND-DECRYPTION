@@ -14,7 +14,11 @@ PC with Linux operating system
 7]	The decrypted form is also displayed as final output. 8] Thus the output is obtained.
 
 # PROGRAM:
-#include<stdio.h> #include<stdlib.h> #include<math.h> #include<string.h>
+```c
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
+#include<string.h>
 longintp,q,n,t,flag,e[100],d[100],temp[100],j,m[100],en[100],i; char msg[100];
 int prime(longint); void ce();
 long int cd(longint); void encrypt();
@@ -104,10 +108,12 @@ printf("%c",m[i]);
 }
 
 
-
+```
 
 
 # OUTPUT:
+<img width="1325" height="788" alt="WhatsApp Image 2026-09-07 at 5 55 06 PM" src="https://github.com/user-attachments/assets/b4dd36f4-5217-4896-a486-2a5e32b68819" />
+
 
  
 
